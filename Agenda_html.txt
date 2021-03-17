@@ -1,0 +1,42 @@
+CSS
+	Tags
+
+   <html> <- começo e fim do html
+   <link> <- usado para utilizar outro arquivo/site
+   <head> <- cabeça do arquivo(informações para o site)
+	<title> <- nome do arquivo(fica dentro do <head>)
+   <Body> <- Corpo do arquivo(O que vai apareçer no site)
+   <h1..6> <- Títulos
+   <div> <- divisor de grupos
+   <a> <- quando associado ao parametro (href), a tag gera um hyperlink
+   <nav> <- área de navegação de links
+   <section> <- seção de um documento
+   <aside> <- espaço separado do conteudo principal
+   <footer> <- rodapé
+   <OL/UL> <- Ordered list/ Unordered List(Parametro type, start)
+     <Li> <- list item
+   <p> <- paragrafo
+   <pre> <- Texto Pre-formatado
+   <img src="<-- Aqui fica o caminho para a imagem -->"> <- tag
+						para mostrar imagens
+
+	Parâmetros
+
+   rel <- Parâmetro de relação de arquivos(link)
+   Href <- Parâmetro de referéncia de hyperteto(link, a, ...)
+   src <- Parâmetro de origem
+   target <- define onde
+   Margin <- espaço externo de um bloco
+   Padding <- espaço interno de um bloco
+   Float <- faz o texto flutuar em uma direção
+
+	Extras
+
+   <wbr> <- quebra palavras sem hífen
+   &shy; <- quebra palavras com hífen
+   <i> <- itálico / enclinada 
+   <em> <- ênfase / enclinada com destaque(semantica)
+   <b> <- Negrito
+   <u> <- sublinhado(depreciada)
+   <s> <- letra riscada(depreciada)
+   <del> <- Riscada / deletada(semantica)
