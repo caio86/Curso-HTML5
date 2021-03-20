@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>  <!--<head> é a parte que não vai ficar visível no HTML, ela serve como informações para o site-->
     <meta charset="UTF-8">
     <title>Tudo Sobre Google Glass</title> <!--<title> é uma tag de titulo, pode ser usada em outras tags-->
     <link rel="stylesheet" href="_css/estilo.css"> <!--<link> serve para ter acesso, a outro arquivo, pro seu site-->
+    <link rel="stylesheet" href="_css/media.css">
 </head>
 <script language="javascript" src="_javascript/funcoes.js"></script> <!--"src" src como propriedade da tag <script> importa outras linguagens de código-->
 <body>  <!--<body> é o corpo do HTML contendo interface/oque vai ficar visível na tela-->
@@ -29,16 +29,32 @@
             </nav>
         </header>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
 
-
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+            <div id="tv-radio">
+                <audio id="musica" controls> <!--<audio> tag para adicionar um arquivo de audio-->
+                    <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mp3"> <!--<source> tag para adicionar um caminho-->
+                    <source src="_media/2009-lovers-carvings-bibio.oggvorbis.ogg" type="audio/ogg">
+                    Desculpe, mas não foi possível carregar o áudio.
+                </audio>
+                <video id="filme" controls poster="_imagens/video-mini03.jpg"> <!--<video> tag para adicionar um arquivo de video-->
+                    <source src="_media/getting-started.mp4" type="video/mp4">
+                    <source src="_media/getting-started.webmsd.webm" type="video/webm">
+                    <source src="_media/getting-started.oggtheora.ogv" type="video/ogg">
+                    Desculpe, mas não foi possível carregar o vídeo.
+                </video>
+            </div>
+            </article>
+        </section>
 
         <footer id="rodape"> <!--<footer> Rodapé da página-->       
             <p>Copyright &copy; 2013 - by Gustavo Guanabara <br>
